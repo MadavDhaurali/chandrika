@@ -1,0 +1,89 @@
+body, ul {
+    margin: 0;
+    padding: 0;
+  }
+  html{
+    scroll-behavior: smooth;
+}
+
+.aboutUs, .home, .contactUs, .download, .contact, footer{
+    font-family: 'Poppins', sans-serif;
+}
+  
+  /* Style the navigation */
+  nav {
+    background-color: #333; 
+    /* position:static; */
+    
+  }
+  
+  ul {
+    list-style: none;
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    justify-content: space-around;
+  }
+  
+  li {
+    margin: 0;
+  }
+  
+  a {
+    text-decoration: none;
+    color: white; /* Change the text color as needed */
+    padding: 10px;
+    display: block;
+    color: rgb(254, 254, 254);
+    transition: background-color 0.3s ease; /* Add a smooth transition effect */
+  }
+  
+
+/*About Page */
+
+
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  margin: 8px;
+}
+
+.about-section {
+  padding: 50px;
+  text-align: center;
+  background-color: #474e5d;
+  color: white;
+}
+
+.container {
+  padding: 0 16px;
+}
+
+.container::after, .row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+
+.button {
+  border: none;
+  outline: 0;
+  display: inline-block;
+  padding: 8px;
+  color: white;
+  background-color: #000;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+}
+
+/* about  */
+
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  margin: 8px;
+}
+
+
+
+
