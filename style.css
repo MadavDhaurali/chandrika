@@ -10,10 +10,10 @@ body, ul {
     font-family: 'Poppins', sans-serif;
 }
   
-  /* Style the navigation */
+ 
   nav {
-    background-color: #333; 
-    /* position:static; */
+    background-color:rgb(23, 187, 220); 
+   
     
   }
   
@@ -31,11 +31,12 @@ body, ul {
   
   a {
     text-decoration: none;
-    color: white; /* Change the text color as needed */
+    color: white; 
     padding: 10px;
     display: block;
     color: rgb(254, 254, 254);
-    transition: background-color 0.3s ease; /* Add a smooth transition effect */
+    transition: background-color 0.3s ease;
+    font-family: 'Poppins', sans-serif; 
   }
   
 
